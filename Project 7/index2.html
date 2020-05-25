@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+	<A HREF="https://www.duckduckgo.com/"></A>
+	<A HREF="https://www.rozetka.ua/"></A>
+    <A HREF="https://www.allo.ua/"></A>
+    <A HREF="https://www.olx.ua/"></A>
+	<A HREF="https://www.zieit.edu.ua/"></A>
+	<A HREF="https://www.foxtrot.ua/"></A>	
+	<A HREF="https://www.comfy.ua/"></A>
+	<A HREF="https://www.google.ua/"></A>
+	<A HREF="https://www.youtube.com/"></A>
+    <FORM NAME="Sel">
+		<!-- Пустой список ссылок-->
+		<SELECT NAME="ListOfLinks"></SELECT>
+		<!-- Кнопка активизации выбранной ссылки-->
+		<INPUT
+			TYPE="button"
+			VALUE="Переход"
+			onClick="window.location.href=document.links[Sel.ListOfLinks.selectedIndex];"
+		></INPUT>
+    </FORM>
+	<script src="2.js"></script>
+</body>
+</html>
